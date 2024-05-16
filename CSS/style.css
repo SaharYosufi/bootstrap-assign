@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar{
+    padding-left: 4%;
+}
+
+
+
+.welcom{
+    color: white;
+}
+
+section{
+    margin: 5%;
+    color: white;
+}
+  
+.row{
+    text-align: center;
+}
+  
+.serv{
+    margin: 5% 10%;
+}
+
+.servbody{
+    padding-top: 0%;
+    height: 300px;
+}
+
+.servbody img{
+    height: 80px;
+    width: 80px;
+    margin-bottom:7px ;
+}
+
+.portbody{
+    padding-top: 0%;
+    height: 200px;
+}
+
+.port{
+    padding-top: 0%;
+    height: 650px;
+    transition-duration: 0.5s;
+    margin: 5% 10%;
+}
+
+.port img{
+    padding-bottom:5% ;
+    height: 70%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.port:hover{
+    transform: translate(0,-3%);
+}
+
+footer{
+    background-color:red;
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 1.5%;
+    align-items: center;
+}
+
+.slideshow{
+    text-align: center;
+}
+
+.slide{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+.team{
+    background-color: black;
+    align-items: center;
+}
+
+.team img{
+    padding-bottom:5% ;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.rowteam{
+    align-items: center;
+    text-align: center;
+
+}
+
+.rowteamdiv{
+    padding-left: 13%;
+}
+
+.submit{
+    width: 100%;
+}
+
+.map{
+    width: 100%;
+}
+
+input{
+    position: relative;
+}
+
+input:focus{
+    background-color: rgb(240, 75, 75);
+    transform: scale(-0.95);
+}
+
+textarea:focus{
+    background-color: black;
+    transform: scale(-0.95);
+}
